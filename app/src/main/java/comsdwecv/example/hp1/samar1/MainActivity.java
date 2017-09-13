@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         arrhours.add("arabic");
         arrhours.add("hebrew");
         arrhours.add("english");
+
+
         adapter=new ArrayAdapter<String>(getApplicationContext(),android.R.layout.simple_list_item_1,arrhours);
 
         lvsechedule=(ListView)findViewById(R.id.lvschedule);
