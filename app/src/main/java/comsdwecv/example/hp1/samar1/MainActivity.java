@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
         arrhours.add("arabic");
         arrhours.add("hebrew");
         arrhours.add("english");
